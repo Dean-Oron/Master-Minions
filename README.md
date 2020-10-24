@@ -9,7 +9,7 @@ We use RAID 01 technique to equivalently stripe the data across multiple disks a
 The Master - Minions is a model of asymmetric communication where one device (Master) controls multiple external devices (Minions).
 We’re using the NBD (Network Block Device) to send requests via the kernel back to the user space. A specific folder should be chosen and be mounted to the NBD. Once that happens, and the program is running, each change within the mounted folder will be translated as a unique request and will be transferred to the external storage devices in a form of RAID01 technique as explained before. 
 
-2. Purpose:
+2. Purposes:
 
     • Educational purposes: 
         a. Design Patterns
