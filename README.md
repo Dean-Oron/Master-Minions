@@ -23,21 +23,20 @@ We’re using the NBD (Network Block Device) to send requests via the kernel bac
         b. Networking
         c. Serializer
 
-
     • Project purposes:
     a. Using external storage devices to store data externally by taking advantage of already existing smart devices.
     b. Creating  a default backup mechanism for the entire transferred data. 
     c. Working in parallel to improve performance. 
 
     3. Attributes:
-    a. EventDriven
-    b. Configurability:
-        The architure of our system can be modified as needed. For instance, the amount of minions(external storage devices) can be changed.
-    c. Fault Tolerance:
-        We used a WatchDog software component to monitor each process in our system. 
-    d. Plug and Play:
-       Our program is extensible. New features can be added during run-time.
-
+            a. EventDriven
+            b. Configurability:
+                The architure of our system can be modified as needed. For instance, the amount of minions(external storage devices) can be changed.
+            c. Fault Tolerance:
+                We used a WatchDog software component to monitor each process in our system. 
+            d. Plug and Play:
+               Our program is extensible. New features can be added during run-time.
 
     4. Verification
-       Our program will be verified by using an external Raspberry Pi as a storage device.
+    
+           Our program will be verified by using an external Raspberry Pi as a storage device.
